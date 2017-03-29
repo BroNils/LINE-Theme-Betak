@@ -1,2 +1,7 @@
 # LINE-Theme-Betak
-*Cuma iseng aja
+
+*MAKE SURE THAT YOU DO AT YOUR OWN RISK*
+
+Download all of them, upload it to your site and done.
+
+*Here the app to change your theme https://play.google.com/store/apps/details?id=com.hedoturkoglu5tb.ltc3.lite
