@@ -1,4 +1,4 @@
-# LINE-Theme-Betak
+# LINE Theme Betak
 
 *MAKE SURE THAT YOU DO AT YOUR OWN RISK*
 
