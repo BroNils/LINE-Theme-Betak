@@ -1,0 +1,697 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/*-- reset --*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/*-- start editing from here --*/
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*-- end reset --*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #008080;
+    background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+    background-size: cover;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Kurale', serif;
+}
+/*-- main --*/
+.main-agileits {
+    padding: 3em 0 0;
+}
+.wthree-row {
+    width: 33%;
+    margin: 2em auto;
+	-webkit-box-shadow: 0px 0px 20px 0px #000;
+	-moz-box-shadow: 0px 0px 20px 0px #000;
+	-o-box-shadow: 0px 0px 20px 0px #000;
+	-ms-box-shadow: 0px 0px 20px 0px #000;
+    box-shadow: 0px 0px 20px 0px #000;
+}
+/*-- profile-w3lstop --*/
+.profile-w3lstop {
+    background: url(../images/1.jpg)no-repeat center 0px;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+    background-size: cover;
+    padding: 2em;
+}
+.menu {
+    display: inline-block;
+}
+.menu a {
+    display: block;
+}
+span.menu-icon,span.menu-icon1 {
+	display: block;
+	cursor: pointer;
+	margin: 0 0 0.5em 0;
+	position: relative;
+} 
+ul.nav1, ul.nav {
+    z-index: 999;
+    width: 75px;
+    background-color: rgba(255, 255, 255, 0.59);
+    padding: 0.5em 1em;
+    position: absolute;
+	-webkit-box-shadow: 0px 0px 15px 0px #000;
+	-moz-box-shadow: 0px 0px 15px 0px #000;
+	-o-box-shadow: 0px 0px 15px 0px #000;
+	-ms-box-shadow: 0px 0px 15px 0px #000;
+    box-shadow: 0px 0px 15px 0px #000;
+}
+ul.nav1{
+    display: none;
+}
+ul.nav1 li ,ul.nav li {
+	display: block;
+    margin: 0.5em 0;
+}
+ul.nav1 li a, ul.nav li a {
+    font-size: 1em;
+    color: #000;
+}
+ul.nav1 li a:hover,ul.nav li a:hover{
+    color: #a91f1f;
+}
+.agile-name {
+    margin: 4em 0 3em;
+    text-align: center;
+}
+h2 {
+    font-size: 2.2em;
+    color: #f00;
+    font-weight: 400;
+    font-family: 'Kurale', serif;
+}
+h6 {
+    font-size: 1em;
+    color: rgba(54, 242, 8, 0.8);
+    margin-top: 0.3em;
+    letter-spacing: 6px;
+}
+.agile-name a {
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #fff;
+	font-size: 1em;
+    padding: .6em 1.5em; 
+    background: #a91f1f;
+    margin-top: 1.4em;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	-o-border-radius: 14px;
+	-ms-border-radius: 14px;
+	border-radius: 14px;
+	-webkit-transition:.5s all;
+	-moz-transition:.5s all;
+	-o-transition:.5s all;
+	-ms-transition:.5s all;
+	transition:.5s all;
+}
+.agile-name a:hover {
+    color: #4dc2ff;
+    background: none;
+    border-color: #4dc2ff;
+}
+/*-- banner-middle--*/
+.profile-text-left ,.profile-text-right{
+    float: left;
+    width: 49.89%;
+    text-align: center;
+    padding:1.5em 0;
+	background-color: #4dc2ff;
+}
+.profile-text-left {
+    border-right: 1px solid rgba(255, 255, 255, 0.28);
+}
+.profile-w3lsmdl h3 {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 200;
+}
+.profile-w3lsmdl p{
+    font-size: 1em;
+    color: #fff;
+    margin-top: 0.5em;
+    letter-spacing: 3px;
+}
+.agileinfo-text {
+    background: #4dc2ff;
+    padding: 2em 5em;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.28);
+}
+.agileinfo-text p {
+    font-size: 1em;
+    color: #fff;
+    line-height: 1.8em;
+    font-weight: 300;
+}
+/*-- banner-bottom --*/
+.agileits-left,.agileits-right{
+    float: left;
+    width: 50%;
+	height: 261px;
+} 
+.agileits-row a {
+    display: block;
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+img.img-responsive {
+    width: 100%;
+    display: block;
+}
+img.zoom-img {
+    transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    -webkit-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -ms-transition-duration: .5s;
+    -o-transition-duration: .5s;
+}
+img.zoom-img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 750ms;
+    -moz-transition-timing-function: ease-in-out;
+    -moz-transition-duration: 750ms;
+    -ms-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -ms-transition-duration: 750ms;
+    -o-transition-duration: 750ms;
+    overflow: hidden;
+}  
+a.w3phts {
+    background: #FF5722;
+    text-align: center;
+    padding: 2.15em 0;
+}
+a.w3phts h4 {
+    font-size: 1.3em;
+    font-family: 'Kurale', serif;
+    color: #fff;
+    line-height: 1.4em;
+}
+a.w3phts h4 span {
+    font-size: 1.5em;
+}
+.w3-agileits-albam a {
+    float: left;
+    width: 20%;
+    overflow: hidden;
+}
+.w3-agileits-albam {
+    width: 75%;
+    margin: 0 auto;
+}
+h5.w3ls-title {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.map {
+	-webkit-filter: invert(90%);
+	-moz-filter: invert(90%);
+	-ms-filter: invert(90%);
+	-o-filter: invert(90%);
+	filter: invert(90%);
+}
+iframe.map {
+    height: 100%;
+    width: 100%;
+}
+/*-- //main --*/
+/*-- copyrights --*/
+.copy-rights {
+    text-align: center;
+    padding: 2em 0;
+}
+.copy-rights p {
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    line-height: 1.8em;
+}
+.copy-rights p a{
+	color:#fff; 
+	-webkit-transition:.5s all;
+	-moz-transition:.5s all;
+	-o-transition:.5s all;
+	-ms-transition:.5s all;
+	transition:.5s all;
+} 
+.copy-rights p a:hover{
+  color: #a91f1f; 
+} 
+/*-- //copyrights --*/
+/*-- Magnific Popup CSS --*/
+.mfp-bg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1042;
+  overflow: hidden;
+  position: fixed;
+  background: #0b0b0b;
+  opacity: 0.8;
+  filter: alpha(opacity=80); }
+
+.mfp-wrap {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1043;
+  position: fixed;
+  outline: none !important;
+  -webkit-backface-visibility: hidden; }
+
+.mfp-container {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: inherit;
+    left: 0;
+    top: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background:#000;
+    background-size: cover;
+    padding: 0 !important;
+    overflow-y: scroll;
+}
+.mfp-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle; }
+
+.mfp-align-top .mfp-container:before {
+  display: none; }
+
+.mfp-content {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: left;
+  z-index: 1045; }
+
+.mfp-inline-holder .mfp-content,
+.mfp-ajax-holder .mfp-content {
+  width: 80%;
+  cursor: auto; }
+
+.mfp-ajax-cur {
+  cursor: progress; }
+
+.mfp-zoom-out-cur,
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  cursor: -moz-zoom-out;
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out; }
+.mfp-zoom {
+  cursor: pointer;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in; }
+
+.mfp-auto-cursor .mfp-content {
+    cursor: auto;
+}
+.mfp-close,
+.mfp-arrow,
+.mfp-preloader,
+.mfp-counter {
+  -webkit-user-select: none;
+  -moz-user-select: none; 
+}
+
+.mfp-loading.mfp-figure {
+  display: none; }
+
+.mfp-hide {
+  display: none !important; }
+
+button.mfp-close,
+button.mfp-arrow {
+    overflow: visible;
+    cursor: pointer;
+    border: 0;
+    -webkit-appearance: none;
+    display: block;
+    padding: 0;
+    z-index: 1046;
+ } 
+.mfp-close {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    text-decoration: none;
+    text-align: center;
+    padding: 0 0 18px 10px;
+    color: #fff;
+    font-style: normal;
+    font-size: 35px;
+    outline: none;
+}
+ .mfp-close:hover, .mfp-close:focus {
+    opacity: 1; 
+}
+
+.mfp-close-btn-in .mfp-close {
+	    background: none;
+  } 
+/*-- Fade-zoom animation for first dialogue --*/
+
+/* start state */
+.my-mfp-zoom-in #small-dialog{
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	-webkit-transform: translateY(-100px);
+	-moz-transform: translateY(-100px);
+	-o-transform: translateY(-100px);
+	-ms-transform: translateY(-100px);
+	transform: translateY(-100px);
+	padding:3em 0;
+} 
+/* animate in */
+.my-mfp-zoom-in.mfp-ready #small-dialog {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-o-transform: translateY(0);
+	-ms-transform: translateY(0);
+    transform: translateY(0);
+}
+/*-- //Magnific Popup CSS --*/
+/*-- responsive-design --*/
+@media(max-width:1440px){
+.wthree-row {
+    width: 37%; 
+}
+}
+@media(max-width:1366px){
+.agileits-left, .agileits-right { 
+    height: 249px;
+}
+a.w3phts { 
+    padding: 1.95em 0;
+}
+}
+@media(max-width:1280px){
+.agile-name {
+    margin: 3em 0 2em; 
+}
+.main-agileits {
+    padding: 2em 0 0;
+}
+.agileinfo-text { 
+    padding: 1.8em 3em; 
+}
+.agileits-left, .agileits-right {
+    height: 231px;
+}
+a.w3phts {
+    padding: 1.65em 0;
+}
+}
+@media(max-width:1080px){
+.wthree-row {
+    width: 44%;
+}
+.copy-rights { 
+    padding: 1em 0 2em;
+}
+}
+@media(max-width:1024px){
+.wthree-row {
+    width: 46%;
+}
+}
+@media(max-width:991px){
+.wthree-row {
+    width: 49%;
+}
+}
+@media(max-width:800px){
+.wthree-row {
+    width: 60.1%;
+}
+}
+@media(max-width:768px){
+.wthree-row {
+    width: 62%;
+}
+}
+@media(max-width:736px){
+.profile-w3lsmdl h3 {
+    font-size: 1.8em; 
+}
+.profile-w3lsmdl p { 
+    letter-spacing: 2px;
+}
+.profile-text-left, .profile-text-right { 
+    width: 49.8%; 
+}
+a.w3phts h4 span {
+    font-size: 1.3em;
+}
+.agileits-left, .agileits-right {
+    height: 224px;
+} 
+.w3-agileits-albam {
+    width: 100%; 
+}
+}
+@media(max-width:667px){
+.profile-w3lstop {
+    padding: 1em;
+}
+h2 {
+    font-size: 2em; 
+}
+.agile-name {
+    margin: 2em 0 2em;
+}
+.agileinfo-text {
+    padding: 1.6em 1.5em;
+}
+a.w3phts h4 {
+    font-size: 1.2em; 
+}
+.agileits-left, .agileits-right {
+    height: 197px;
+}
+a.w3phts {
+    padding: 1.45em 0;
+}
+h1 {
+    font-size: 2.5em; 
+}
+}
+@media(max-width:640px){
+.wthree-row {
+    width: 63%;
+} 
+}
+@media(max-width:600px){
+.main-agileits {
+    padding: 1em 0 0;
+}
+h1 {
+    font-size: 2.3em;
+}
+.wthree-row {
+    width: 70%;
+    margin: 1.5em auto;
+}
+a.w3phts {
+    padding: 1.5em 0;
+}
+.agileits-left, .agileits-right {
+    height: 203px;
+}
+}
+@media(max-width:568px){
+.agileits-left, .agileits-right {
+    height: 194px;
+}
+a.w3phts {
+    padding: 1.35em 0;
+}
+}
+@media(max-width:480px){
+h2 {
+    font-size: 1.8em;
+}
+h6 {
+    font-size: 0.9em; 
+    letter-spacing: 4px;
+}
+.profile-w3lsmdl h3 {
+    font-size: 1.5em;
+}
+.profile-text-left, .profile-text-right { 
+    padding: 1em 0; 
+}
+.agileinfo-text p {
+    font-size: 0.9em; 
+}
+.agileits-left, .agileits-right {
+    float: none;
+    width: 100%;
+}
+.agileits-left{
+    height: inherit;
+}
+a.w3phts {
+    padding: 3.4em 0;
+}
+.agile-name a { 
+    font-size: 0.9em; 
+} 
+}
+@media(max-width:414px){
+h2 {
+    font-size: 1.6em;
+}
+span.menu-icon a img {
+    width: 70%;
+}
+.agile-name {
+    margin: 1em 0 1.5em;
+}
+.wthree-row {
+    width: 80%; 
+}
+a.w3phts {
+    padding: 3.28em 0;
+}
+.w3-agileits-albam a { 
+    width: 50%; 
+}
+h5.w3ls-title {
+    font-size: 1.8em; 
+    margin-bottom: 0.8em;
+} 
+}
+@media(max-width:384px){
+a.w3phts {
+    padding: 2.7em 0;
+}
+.copy-rights p {
+    font-size: 0.9em; 
+    padding: 0 1em;
+}
+a.w3phts {
+    padding: 2.9em 0;
+}
+}
+@media(max-width:375px){
+.agileinfo-text {
+    padding: 1em 1em;
+}
+.profile-w3lsmdl p {
+    letter-spacing: 1px;
+    font-size: 0.9em;
+}
+.profile-w3lsmdl h3 {
+    font-size: 1.2em;
+}
+.copy-rights {
+    padding: 0 0 1em;
+}
+a.w3phts {
+    padding: 2.8em 0;
+}
+}
+@media(max-width:320px){
+h1 {
+    font-size: 2em;
+}
+.main-agileits {
+    padding: 0.5em 0 0;
+}
+.agile-name a {
+    font-size: 0.8em;
+}
+h6 {
+    font-size: 0.9em;
+    letter-spacing: 2px;
+}
+ul.nav1 li a, ul.nav li a {
+    font-size: 0.9em; 
+}
+.profile-text-left, .profile-text-right {
+    width: 49.79%;
+}
+.profile-w3lsmdl p {
+    letter-spacing: 0px; 
+}
+.agileinfo-text p {
+    font-size: 0.85em;
+}
+a.w3phts {
+    padding: 2.1em 0;
+}
+ .agileits-right {
+    height: 170px;
+}
+}
+/*-- //responsive-design --*/
