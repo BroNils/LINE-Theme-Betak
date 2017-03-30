@@ -147,7 +147,7 @@ if($_GET['url']){
 		@ob_clean();
         $file = $theme_info[3].".zip";
         header('Content-Description: File Transfer');
-        header('Content-Type: application/octet-stream');
+        header('Content-Type: application/zip');
         header('Content-Disposition: attachment; filename="'.basename($file).'"');
         header('Expires: 0');
         header('Cache-Control: must-revalidate');
