@@ -85,9 +85,7 @@ function get_theme_info($d){
 function get_theme_url($d){
 	$sdl = "http://dl.shop.line.naver.jp/themeshop/v1/products/";
 	$sdl2 = "/1/ANDROID/theme.zip";
-	$pecah_d = explode("/", $d);
-	$code = end($pecah_d);
-	$code = prev($pecah_d); //Code Line
+	$code = ambilKata($d, '/themeshop/product/', '/');
 	$pecah_code = explode("-", $code); //5 Array, => (666-666-666-666-666)
 	$code2 = $pecah_code[0];
 	$split = str_split($code2); //8 Array, => (6-6-6-6-6-6-6-6)
@@ -136,7 +134,7 @@ if($_GET['url']){
 		@ob_clean();
         $file = $theme_info[3];
         header('Content-Description: File Transfer');
-        header('Content-Type: application/octet-stream'); //I Dunno
+        header('Content-Type: application/octet-stream');
         header('Content-Disposition: attachment; filename="'.basename($file).'"');
         header('Expires: 0');
         header('Cache-Control: must-revalidate');
@@ -149,7 +147,7 @@ if($_GET['url']){
 		@ob_clean();
         $file = $theme_info[3].".zip";
         header('Content-Description: File Transfer');
-        header('Content-Type: application/zip');
+        header('Content-Type: application/octet-stream');
         header('Content-Disposition: attachment; filename="'.basename($file).'"');
         header('Expires: 0');
         header('Cache-Control: must-revalidate');
