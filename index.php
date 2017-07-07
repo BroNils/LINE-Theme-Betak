@@ -84,7 +84,7 @@ function get_theme_info($d){
 }
 function get_theme_url($d){
 	$sdl = "http://dl.shop.line.naver.jp/themeshop/v1/products/";
-	$sdl2 = "/1/ANDROID/theme.zip";
+	$sdl2 = "/ANDROID/theme.zip";
 	$code = ambilKata($d, '/themeshop/product/', '/');
 	$pecah_code = explode("-", $code); //5 Array, => (666-666-666-666-666)
 	$code2 = $pecah_code[0];
@@ -94,7 +94,11 @@ function get_theme_url($d){
 	$kode_2 = $split[2].$split[3];
 	$kode_3 = $split[4].$split[5];
 	/* END */
-	$dl_link = $sdl.$kode_1."/".$kode_2."/".$kode_3."/".$code.$sdl2; //URL Download
+	$xhtp = getsource($d);
+	$dl_builder = $sdl.$kode_1."/".$kode_2."/".$kode_3."/".$code."/";
+	$get__some__beer = ambilKata($xhtp,$dl_builder,'/');
+	$dl_link = $dl_builder.$get__some__beer.$sdl2;
+//	$dl_link = $sdl.$kode_1."/".$kode_2."/".$kode_3."/".$code.$sdl2; /* OLD */
 	return $dl_link;
 }
 function savezip($d,$t){
