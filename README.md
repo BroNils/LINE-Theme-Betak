@@ -5,7 +5,7 @@
 <hr>
 How to install:<br>
 -Download all of them or you can download the zipped file, upload it to your site and done.
-</hr>
+<hr><br>
 
 *Cron Job remfile.php for 5 min or 1 hour
 
