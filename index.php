@@ -213,7 +213,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
 <script>
 function submit(){
-	var redir = "http://line.expan-kreasi.com/index.php?url="+document.getElementById("url").value;;
+	var redir = "http://<?echo $_SERVER[HTTP_HOST];?>/index.php?url="+document.getElementById("url").value;;
 	window.location = redir;
 }
 </script>
