@@ -2,7 +2,8 @@
 
 *MAKE SURE THAT YOU DO AT YOUR OWN RISK*
 
-Download all of them or you can download the zipped file, upload it to your site and done.
+How to install:
+-Download all of them or you can download the zipped file, upload it to your site and done.
 
 *Cron Job remfile.php for 5 min or 1 hour
 
